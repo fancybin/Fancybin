@@ -12,4 +12,9 @@
     <string name="desc_onboard_2">Kamu gak perlu mikir milahnya gimana biar Fancybin yang atur!</string>
     <string name="title_onboard_3">Buang Sampah Dapet Poin! &#129297;</string>
     <string name="desc_onboard_3">Mendapat Poin dengan sangat mudah Semudah membuang sampah!</string>
+    <string name="iv_welcome">imageview welcome</string>
+    <string name="tv_title_welcome">Selamat datang di Fancybin!</string>
+    <string name="tv_desc_welcome">Belajar memilah sampah, Mengenali sampah dengan Trash Detector, semua ada di Fancybin!</string>
+    <string name="tv_login">Masuk</string>
+    <string name="tv_register">Daftar</string>
 </resources>
