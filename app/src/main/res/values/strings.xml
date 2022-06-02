@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">fancybin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="splash">Splash Screen</string>
+    <string name="title_onboard_1">Aplikasi Serbaguna Buat Kamu &#128077;</string>
+    <string name="desc_onboard_1">Aplikasi yang dibuat untuk kamu agar tahu Jenis sampah serta Dampaknya bagi Lingkungan</string>
+    <string name="start">Mulai</string>
+    <string name="onboarding_image">Onboarding Image</string>
+    <string name="title_onboard_2">Gak Pusing Milah Sampah! &#128526;</string>
+    <string name="desc_onboard_2">Kamu gak perlu mikir milahnya gimana biar Fancybin yang atur!</string>
+    <string name="title_onboard_3">Buang Sampah Dapet Poin! &#129297;</string>
+    <string name="desc_onboard_3">Mendapat Poin dengan sangat mudah Semudah membuang sampah!</string>
+</resources>
