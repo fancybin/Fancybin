@@ -15,6 +15,7 @@ import com.c22ps333.fancybin.databinding.ActivityOnboardingBinding
 import com.c22ps333.fancybin.ui.ViewModelFactory
 import com.c22ps333.fancybin.ui.main.MainActivity
 import com.c22ps333.fancybin.ui.model.UserPreferences
+import com.c22ps333.fancybin.ui.welcome.WelcomeActivity
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "token")
 
@@ -52,7 +53,7 @@ class OnboardingActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.btnStarted.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, WelcomeActivity::class.java)
             viewModel.setFirstTime(false)
             startActivity(intent)
             finish()
