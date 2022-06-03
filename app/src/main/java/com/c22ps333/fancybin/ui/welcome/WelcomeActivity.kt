@@ -9,6 +9,7 @@ import android.view.WindowManager
 import com.c22ps333.fancybin.R
 import com.c22ps333.fancybin.databinding.ActivityOnboardingBinding
 import com.c22ps333.fancybin.databinding.ActivityWelcomeBinding
+import com.c22ps333.fancybin.ui.login.LoginActivity
 
 class WelcomeActivity : AppCompatActivity() {
 
@@ -34,21 +35,17 @@ class WelcomeActivity : AppCompatActivity() {
             )
         }
         supportActionBar?.hide()
-        //setupAction()
+        setupAction()
     }
 
-/*
     private fun setupAction() {
         binding.btnLogin.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-            finish()
         }
-        binding.btnRegister.setOnClickListener {
+        /*binding.btnRegister.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
-            finish()
-        }
+        }*/
     }
-*/
 }
