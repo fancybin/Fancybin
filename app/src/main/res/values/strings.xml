@@ -17,4 +17,20 @@
     <string name="tv_desc_welcome">Belajar memilah sampah, Mengenali sampah dengan Trash Detector, semua ada di Fancybin!</string>
     <string name="tv_login">Masuk</string>
     <string name="tv_register">Daftar</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="tv_title_login">Kamu Sudah Daftar?</string>
+    <string name="tv_desc_login">Sekarang masukkan datamu dulu ya!</string>
+    <string name="tv_email">Masukkan Email Kamu</string>
+    <string name="tv_invalid_email">Email tidak valid</string>
+    <string name="tv_warning_password">Password must be 6 character</string>
+    <string name="tv_name">Nama</string>
+    <string name="tv_password">Masukkan password kamu</string>
 </resources>
