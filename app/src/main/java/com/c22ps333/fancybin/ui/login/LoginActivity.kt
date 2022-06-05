@@ -11,9 +11,8 @@ import com.c22ps333.fancybin.ui.main.MainActivity
 
 class LoginActivity : AppCompatActivity() {
 
-    private val binding: ActivityLoginBinding by lazy {
-        ActivityLoginBinding.inflate(layoutInflater)
-    }
+    private lateinit var binding: ActivityLoginBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
