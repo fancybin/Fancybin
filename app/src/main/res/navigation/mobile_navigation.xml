@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.c22ps333.fancybin.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_education"
+        android:name="com.c22ps333.fancybin.ui.education.EducationFragment"
+        android:label="@string/title_education"
+        tools:layout="@layout/fragment_education" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.c22ps333.fancybin.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_scan"
+        android:name="com.c22ps333.fancybin.ui.scan.ScanFragment"
+        android:label="@string/title_scan"
+        tools:layout="@layout/fragment_scan" />
+
+    <fragment
+        android:id="@+id/navigation_device"
+        android:name="com.c22ps333.fancybin.ui.device.DeviceFragment"
+        android:label="@string/title_location"
+        tools:layout="@layout/fragment_device" />
 </navigation>
