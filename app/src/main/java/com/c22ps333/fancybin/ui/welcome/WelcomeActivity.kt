@@ -10,6 +10,7 @@ import com.c22ps333.fancybin.R
 import com.c22ps333.fancybin.databinding.ActivityOnboardingBinding
 import com.c22ps333.fancybin.databinding.ActivityWelcomeBinding
 import com.c22ps333.fancybin.ui.login.LoginActivity
+import com.c22ps333.fancybin.ui.register.RegisterActivity
 
 class WelcomeActivity : AppCompatActivity() {
 
@@ -43,9 +44,9 @@ class WelcomeActivity : AppCompatActivity() {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
-        /*binding.btnRegister.setOnClickListener {
+        binding.btnRegister.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
-        }*/
+        }
     }
 }
