@@ -12,8 +12,9 @@ import com.c22ps333.fancybin.ui.register.RegisterActivity
 
 class WelcomeActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityWelcomeBinding
-
+    private val binding: ActivityWelcomeBinding by lazy {
+        ActivityWelcomeBinding.inflate(layoutInflater)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

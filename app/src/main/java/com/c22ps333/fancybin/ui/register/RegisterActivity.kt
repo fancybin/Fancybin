@@ -10,8 +10,9 @@ import com.c22ps333.fancybin.databinding.ActivityRegisterBinding
 import com.c22ps333.fancybin.ui.main.MainActivity
 
 class RegisterActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityRegisterBinding
-
+    private val binding: ActivityRegisterBinding by lazy {
+        ActivityRegisterBinding.inflate(layoutInflater)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
