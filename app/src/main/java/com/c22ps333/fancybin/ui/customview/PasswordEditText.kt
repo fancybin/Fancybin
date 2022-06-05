@@ -28,7 +28,6 @@ class PasswordEditText : AppCompatEditText {
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        setPadding(0, 0, 125, 0)
 
         hint = context.getString(R.string.tv_password)
 
@@ -41,6 +40,7 @@ class PasswordEditText : AppCompatEditText {
             }
 
             override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
+                setPadding(0, 0, 120, 0)
                 if (s.toString().length < 6) {
                     error = context.getString(R.string.tv_warning_password)
                 }

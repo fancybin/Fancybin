@@ -29,7 +29,6 @@ class EmailEditText : AppCompatEditText {
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        setPadding(0, 0, 125, 0)
 
         hint = context.getString(R.string.tv_email)
 
