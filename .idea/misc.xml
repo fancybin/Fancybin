@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_circle.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_lock.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.19718094403118652" />
+        <entry key="app/src/main/res/drawable/ic_person.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.21509018475384276" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23897435897435898" />
         <entry key="app/src/main/res/layout/activity_onboarding.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.15983779262488995" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.23342132568359375" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.10520833333333333" />

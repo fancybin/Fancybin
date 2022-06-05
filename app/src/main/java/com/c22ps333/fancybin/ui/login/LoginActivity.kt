@@ -1,11 +1,13 @@
 package com.c22ps333.fancybin.ui.login
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowManager
 import com.c22ps333.fancybin.databinding.ActivityLoginBinding
+import com.c22ps333.fancybin.ui.main.MainActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -30,6 +32,13 @@ class LoginActivity : AppCompatActivity() {
             )
         }
         supportActionBar?.hide()
+        setupAction()
+    }
 
+    private fun setupAction() {
+        binding.btnLogin.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
