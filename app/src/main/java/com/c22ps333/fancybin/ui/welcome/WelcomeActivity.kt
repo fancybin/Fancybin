@@ -6,17 +6,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowManager
-import com.c22ps333.fancybin.R
-import com.c22ps333.fancybin.databinding.ActivityOnboardingBinding
 import com.c22ps333.fancybin.databinding.ActivityWelcomeBinding
 import com.c22ps333.fancybin.ui.login.LoginActivity
 import com.c22ps333.fancybin.ui.register.RegisterActivity
 
 class WelcomeActivity : AppCompatActivity() {
 
-    private val binding: ActivityWelcomeBinding by lazy {
-        ActivityWelcomeBinding.inflate(layoutInflater)
-    }
+    private lateinit var binding: ActivityWelcomeBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
