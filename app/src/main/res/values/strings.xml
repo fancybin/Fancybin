@@ -28,9 +28,13 @@
     <string name="login_failed">"Login failed"</string>
     <string name="tv_title_login">Kamu Sudah Daftar?</string>
     <string name="tv_desc_login">Sekarang masukkan datamu dulu ya!</string>
-    <string name="tv_email">Masukkan Email Kamu</string>
+    <string name="tv_email">Masukkan email kamu</string>
     <string name="tv_invalid_email">Email tidak valid</string>
     <string name="tv_warning_password">Password must be 6 character</string>
     <string name="tv_name">Nama</string>
     <string name="tv_password">Masukkan password kamu</string>
+    <string name="tv_title_register">Baru Gabung?</string>
+    <string name="tv_desc_register">Masukkan data dirimu dengan benar ya!</string>
+    <string name="iv_register">image View Register</string>
+    <string name="iv_login">Image View Login</string>
 </resources>
