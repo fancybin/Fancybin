@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/iv_welcome"
         android:layout_width="match_parent"
-        android:layout_height="164dp"
+        android:layout_height="156dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:src="@drawable/iv_welcome"
