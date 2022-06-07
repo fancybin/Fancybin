@@ -37,7 +37,7 @@
     <string name="tv_desc_register">Masukkan data dirimu dengan benar ya!</string>
     <string name="iv_register">image View Register</string>
     <string name="iv_login">Image View Login</string>
-    <string name="title_location">Device Location</string>
+    <string name="title_location">Device</string>
     <string name="tv_title_feature">Judul Fitur</string>
     <string name="tv_desc_feature">Yuk jelajahi fitur yang kami punya!</string>
     <string name="tv_point">poin</string>
@@ -46,4 +46,7 @@
     <string name="location_off_message">Tolong nyalakan lokcasimu ya</string>
     <string name="userpoint">0001</string>
     <string name="user_point">0001</string>
+    <string name="tv_gallery">Gallery</string>
+    <string name="tv_camera">camera</string>
+    <string name="tv_predict">PREDICT</string>
 </resources>
