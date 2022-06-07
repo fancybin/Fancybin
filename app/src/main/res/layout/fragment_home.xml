@@ -23,7 +23,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
-                android:layout_width="120dp"
+                android:layout_width="112dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
@@ -107,7 +107,6 @@
                 android:id="@+id/tv_throw"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
                 android:drawablePadding="4dp"
                 android:gravity="center"
                 android:text="@string/tv_throw"
@@ -116,6 +115,7 @@
                 android:textStyle="bold"
                 app:drawableTopCompat="@drawable/ic_thrower"
                 app:layout_constraintBottom_toBottomOf="@+id/tv_exchange"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
                 app:layout_constraintStart_toEndOf="@+id/tv_exchange"
                 app:layout_constraintTop_toTopOf="@+id/tv_exchange" />
 
@@ -123,13 +123,12 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_marginStart="24dp"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/ic_profile_rounded"
                 app:layout_constraintBottom_toBottomOf="@+id/tv_throw"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/tv_throw"
-                app:layout_constraintTop_toTopOf="@+id/tv_throw" />
+                app:layout_constraintTop_toTopOf="@+id/tv_throw"
+                app:layout_constraintVertical_bias="0.0" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
@@ -162,8 +161,7 @@
         android:id="@+id/card_feature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+
         tools:listitem="@layout/menu_home_item"/>
 
 </LinearLayout>
