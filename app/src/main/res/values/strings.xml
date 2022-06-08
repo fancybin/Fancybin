@@ -49,4 +49,25 @@
     <string name="tv_gallery">Gallery</string>
     <string name="tv_camera">camera</string>
     <string name="tv_predict">PREDICT</string>
+    <string name="tv_title_fancybin_list">Fancybin List</string>
+    <string name="Feature_img_desc">Gambar Fitur</string>
+    <string-array name="data_title">
+        <item>Edukasi</item>
+        <item>Edukasi</item>
+        <item>Edukasi</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Sepele tapi efeknya luar biasa untuk Alam
+            Yuk tambah wawasan tentang Sampah!</item>
+        <item>Sepele tapi efeknya luar biasa untuk Alam
+            Yuk tambah wawasan tentang Sampah!</item>
+        <item>Sepele tapi efeknya luar biasa untuk Alam
+            Yuk tambah wawasan tentang Sampah!</item>
+    </string-array>
+    <integer-array name="data_image">
+        <item>@drawable/iv_feature</item>
+        <item>@drawable/iv_feature</item>
+        <item>@drawable/iv_feature</item>
+    </integer-array>
+
 </resources>
