@@ -25,7 +25,7 @@ fun createTempFile(context: Context): File {
 
 fun fromUriToFile(selectedImg: Uri, context: Context): File {
     val contentResolver: ContentResolver = context.contentResolver
-    val myFile = com.c22ps333.fancybin.utils.createTempFile(context)
+    val myFile = createTempFile(context)
 
     val inputStream = contentResolver.openInputStream(selectedImg) as InputStream
     val outputStream: OutputStream = FileOutputStream(myFile)
