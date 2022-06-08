@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/display-nearby-places-ar-android/starter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1165" />
+        <entry key="app/src/main/res/drawable/ic_arrow_up.xml" value="0.1165" />
         <entry key="app/src/main/res/drawable/ic_circle.xml" value="0.1885" />
         <entry key="app/src/main/res/drawable/ic_education.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_edukasi.xml" value="0.1" />
@@ -11,6 +13,8 @@
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_location.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_lock.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_maximize.xml" value="0.1165" />
+        <entry key="app/src/main/res/drawable/ic_minimize.xml" value="0.1165" />
         <entry key="app/src/main/res/drawable/ic_person.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_profile_rounded.xml" value="0.1165" />
         <entry key="app/src/main/res/drawable/ic_reward.xml" value="0.1165" />
@@ -18,19 +22,20 @@
         <entry key="app/src/main/res/drawable/ic_thrower.xml" value="0.1" />
         <entry key="app/src/main/res/layout-w936dp/fragment_device.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.21509018475384276" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21052631578947367" />
         <entry key="app/src/main/res/layout/activity_onboarding.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.15983779262488995" />
         <entry key="app/src/main/res/layout/activity_scan.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.23177470892248042" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.10520833333333333" />
-        <entry key="app/src/main/res/layout/fragment_device.xml" value="0.10520833333333333" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.10144348144531251" />
+        <entry key="app/src/main/res/layout/fragment_device.xml" value="0.22497863769531246" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26741027832031256" />
         <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.1203125" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/layout/fragment_scan.xml" value="0.12052764892578122" />
-        <entry key="app/src/main/res/layout/menu_home_item.xml" value="0.22732479014295215" />
+        <entry key="app/src/main/res/layout/menu_feature_item.xml" value="0.15678253173828127" />
+        <entry key="app/src/main/res/layout/menu_home_item.xml" value="0.22855007090467083" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.24722222222222223" />
         <entry key="app/src/main/res/xml/file_paths.xml" value="0.10520833333333333" />
       </map>
