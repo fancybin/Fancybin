@@ -41,7 +41,7 @@ class DeviceFragment : Fragment() {
         mMap = googleMap
 
         mMap.uiSettings.apply {
-            isZoomControlsEnabled = true
+            isZoomControlsEnabled = false
             isCompassEnabled = true
             isMapToolbarEnabled = true
         }
