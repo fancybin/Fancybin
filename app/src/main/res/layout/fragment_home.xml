@@ -96,7 +96,7 @@
                 android:gravity="center"
                 android:text="@string/tv_exchange"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 app:drawableTopCompat="@drawable/ic_reward"
                 app:layout_constraintBottom_toBottomOf="@+id/cardView2"
@@ -111,7 +111,7 @@
                 android:gravity="center"
                 android:text="@string/tv_throw"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 app:drawableTopCompat="@drawable/ic_thrower"
                 app:layout_constraintBottom_toBottomOf="@+id/tv_exchange"
@@ -134,11 +134,11 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
-        android:id="@+id/tv_title_feature"
+        android:id="@+id/tv_feature_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:text="@string/tv_title_welcome"
         android:textColor="@color/black"
@@ -146,7 +146,7 @@
         android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/tv_desc_feature"
+        android:id="@+id/tv_feature_desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -156,12 +156,12 @@
         android:textColor="@color/black"
         android:textSize="14sp"/>
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/card_feature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        tools:listitem="@layout/menu_home_item"/>
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:clipToPadding="false"/>
 
 </LinearLayout>
