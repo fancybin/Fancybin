@@ -13,7 +13,6 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import com.c22ps333.fancybin.databinding.ActivityOnboardingBinding
 import com.c22ps333.fancybin.ui.ViewModelFactory
-import com.c22ps333.fancybin.ui.main.MainActivity
 import com.c22ps333.fancybin.ui.model.UserPreferences
 import com.c22ps333.fancybin.ui.welcome.WelcomeActivity
 
