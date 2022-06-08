@@ -1,7 +1,6 @@
 package com.c22ps333.fancybin.ui.scan
 
 import android.Manifest
-import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
@@ -12,7 +11,6 @@ import android.provider.MediaStore
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.bumptech.glide.load.resource.bitmap.TransformationUtils
 import androidx.appcompat.app.AppCompatActivity
@@ -50,7 +48,7 @@ class ScanFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View {
         _binding = FragmentScanBinding.inflate(LayoutInflater.from(requireActivity()))
-        return binding?.root
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -60,6 +58,7 @@ class ScanFragment : Fragment() {
     }
 
     private fun setupButtons() {
+
         binding.btnCamera.setOnClickListener {
             if (!allPermissionsGranted()) {
                 ActivityCompat.requestPermissions(
@@ -67,10 +66,10 @@ class ScanFragment : Fragment() {
                     REQUIRED_PERMISSIONS,
                     REQUEST_CODE_PERMISSIONS
                 )
+            } else {
+                takePhoto()
             }
         }
-
-        binding.btnCamera.setOnClickListener { takePhoto() }
         binding.btnGallery.setOnClickListener { startGallery() }
     }
 
